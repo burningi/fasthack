@@ -1,3 +1,3 @@
-export * from './home.component';
-export * from './about.component';
-export * from './service.component';
+export * from './home/home.component';
+export * from './about/about.component';
+export * from './service/service.component';
