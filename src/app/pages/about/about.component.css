@@ -1,1 +1,11 @@
 .about { font-size: 2em; padding: 60px; }
+.big-box {
+    height: 100px;
+    background-color: #ee82ee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.big-box-right {
+    background-color: green;
+}
