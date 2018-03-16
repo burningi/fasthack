@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ServiceComponent } from './pages/service/service.component';
 import { AboutComponent  } from './pages/about/about.component';
+import { LoginComponent } from './pages/login/login.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'service', component: ServiceComponent },
-  { path: 'about', component: AboutComponent }
+  { path: 'about', component: AboutComponent },
+  { path: 'login', component: LoginComponent }
 ];
 
 @NgModule({
@@ -18,7 +20,8 @@ const routes: Routes = [
     AppComponent,
     HomeComponent,
     ServiceComponent,
-    AboutComponent
+    AboutComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
